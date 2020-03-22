@@ -6,8 +6,12 @@ namespace ProjectName.Models
   public class ClassName
   {
     public int ClassNameId { get; set; }
+    public ICollection<ParentChildClassName> ParentChildClassesName { get; set; }
 
-    public virtual ParentClassName ParentClassName { get; set; }
+    public ClassName()
+    {
+      this.ParentClassesName = new HashSet<ParentChildClassName>();
+    }
 
   }
 }

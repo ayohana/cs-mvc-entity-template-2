@@ -6,7 +6,7 @@ namespace ProjectName.Models
   {
     public virtual DbSet<ParentClassName> ParentClassesName { get; set; }
     public DbSet<ClassName> ClassesName { get; set; }
-
+    public DbSet<ParentChildClassName> ParentChildClassName { get; set; }
     public ProjectNameContext(DbContextOptions options) : base(options) { }
   }
 }

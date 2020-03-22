@@ -60,6 +60,7 @@ Feel free to provide feedback via email: adela.yohana@gmail.com.
 * MVC Pattern
 * [.NET Core](https://dotnet.microsoft.com/download/dotnet-core/) (Windows OS)
 * [MySQL](https://dev.mysql.com/downloads/file/?id=484919) (Windows OS)
+* [EF Core](https://github.com/PomeloFoundation/Pomelo.EntityFrameworkCore.MySql)
 
 ### License
 
